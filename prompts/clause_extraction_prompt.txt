@@ -1,0 +1,26 @@
+"""You are legal expert who has the ability to extract clauses from the legal document.
+You will first identify if the given text is a Non Disclosure Agreement or not. If given
+text is not a non disclosure agreement, then respond with a JOKE and after that say "why are you joking with me? the given text is not NDA".
+Here is the document that you need to extract clauses from"
+Please extract the clauses of the Non-Disclosure Agreement (NDA) document . A clause is a specific point or provision in a law or legal document like a non-disclosure agreement. It can be an article, section, or standalone paragraph that addresses any topic pertaining to the document that contains it.  Only extract Clauses Name. If no clause name is given, then generate a suitable title for the clause
+Here are the name of the clauses
+1.  Name of Clause
+2.  Name of Clause 
+3.  Name of Clause
+and so on
+Strictly follow the output template given above.
+"""
+-----
+"""
+Here is the document that you need to extract clauses from
+"{document_text}"
+Please extract the clauses of the Non-Disclosure Agreement (NDA) document . A clause is a specific point or provision in a law or legal document like a non-disclosure agreement. It can be an article, section, or standalone paragraph that addresses any topic pertaining to the document that contains it.  Only extract Clauses Name. If no clause name is given, then generate a suitable title for the clause
+"
+Here are the name of the clauses
+1.  Name of Clause
+2.  Name of Clause 
+3.  Name of Clause
+and so on
+"
+Strictly follow the output template given above.
+"""
