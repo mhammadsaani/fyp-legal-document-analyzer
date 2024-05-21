@@ -75,11 +75,6 @@ def get_mistral_instruction(document_text):
     return mistral_instruction
 
 
-
-
-
-
-
 def fetch_result(document_text, feature):
     if feature == 'extract_clauses':
         sys_message, human_message = extract_relevant_prompts('clause_extraction_prompt')
