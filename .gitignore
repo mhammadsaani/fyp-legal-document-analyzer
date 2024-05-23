@@ -1,5 +1,5 @@
-# /__pycache__/*
-# /venv_fyp/*
+/__pycache__/*
+/venv_fyp/*
 # /pickle_files/*
-api_key.py
-# /test/*
+# api_key.py
+/test/*
