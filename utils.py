@@ -27,7 +27,7 @@ encode_kwargs = {"normalize_embeddings": True}
 
 def prepare_models():
     llm = HuggingFaceEndpoint(
-        repo_id=repo_id, max_new_tokens=2000, temperature=0.01, token=HUGGINGFACEHUB_API_TOKEN
+        repo_id=repo_id, max_new_tokens=1000, temperature=0.01, token=HUGGINGFACEHUB_API_TOKEN
     )
     embeddings = HuggingFaceBgeEmbeddings(
         model_name=model_name, model_kwargs=model_kwargs, encode_kwargs=encode_kwargs
